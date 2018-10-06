@@ -28,7 +28,7 @@ module.exports = {
           }]
         }, //css only files
         { 
-          test: /\.(png|svg|jpg|gif)$/, use: {
+          test: /\.(png|svg|jpg|gif|jpeg|webp|jpeg2000|jpegxr|tiff|bmp)$/, use: {
             loader: 'file-loader',
             options: { name: '[name].[ext]' } 
           }
